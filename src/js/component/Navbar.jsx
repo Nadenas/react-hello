@@ -6,36 +6,38 @@ import React from "react";
 //create your fisrt component
 const Navbar = () => {
 	return (
-		<nav className="navbar fixed-top navbar-light bg-dark mb-5">
-			<div className="container-fluid">
-				<a className="navbar-brand text-light" href="#">
-					Start Boostrap
-				</a>
-				<ul className="nav justify-content-end">
-					<li className="nav-item">
-						<a
-							className="nav-link active text-light"
-							aria-current="page"
-							href="#">
-							Home
-						</a>
-					</li>
-					<li className="nav-item">
-						<a className="nav-link text-secondary" href="#">
-							About
-						</a>
-					</li>
-					<li className="nav-item">
-						<a className="nav-link text-secondary" href="#">
-							Services
-						</a>
-					</li>
-					<li className="nav-item">
-						<a className="nav-link text-secondary" href="#">
-							Contact
-						</a>
-					</li>
-				</ul>
+		<nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top d-flex">
+			<a className="navbar-brand text-white" href="#">
+				Start Boostrap
+			</a>
+			<button
+				className="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarNavAltMarkup"
+				aria-controls="navbarNavAltMarkup"
+				aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span className="navbar-toggler-icon"></span>
+			</button>
+			<div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div className="navbar-nav ml-auto">
+					<a className="nav-link active text-white " href="#">
+						Home <span className="sr-only">(current)</span>
+					</a>
+					<a className="nav-link text-white" href="#">
+						About
+					</a>
+					<a className="nav-link text-white" href="#">
+						Services
+					</a>
+					<a
+						className="nav-link text-white"
+						href="#"
+						aria-disabled="true">
+						Contact
+					</a>
+				</div>
 			</div>
 		</nav>
 	);

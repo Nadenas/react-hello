@@ -6,8 +6,8 @@ import React from "react";
 //create your third component
 const Card = () => {
 	return (
-		<div className="card-group">
-			<div className="card m-3 border rounded">
+		<div className="card-group container-fluid">
+			<div className="card border m-4 rounded">
 				<img
 					src="http://placekitten.com/g/200/300"
 					className="card-img-top"
@@ -26,7 +26,7 @@ const Card = () => {
 					</a>
 				</div>
 			</div>
-			<div className="card m-3 border rounded">
+			<div className="card m-4 border rounded">
 				<img
 					src="http://placekitten.com/g/200/300"
 					className="card-img-top"
@@ -44,7 +44,7 @@ const Card = () => {
 					</a>
 				</div>
 			</div>
-			<div className="card m-3 border rounded">
+			<div className="card m-4 border rounded">
 				<img
 					src="http://placekitten.com/g/200/300"
 					className="card-img-top"
@@ -64,7 +64,7 @@ const Card = () => {
 					</a>
 				</div>
 			</div>
-			<div className="card m-3 border rounded">
+			<div className="card m-4 border rounded">
 				<img
 					src="http://placekitten.com/g/200/300"
 					className="card-img-top"

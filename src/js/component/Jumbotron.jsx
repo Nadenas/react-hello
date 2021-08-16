@@ -6,8 +6,8 @@ import React from "react";
 //create your second component
 const Jumbo = () => {
 	return (
-		<div className="mt-5">	
-			<div className="jumbotron container-fluid">
+		<div className="p-2 m-3">
+			<div className="jumbotron mx-3 mt-4">
 				<h1 className="display-4">A Warm Welcome!</h1>
 				<p>
 					It uses utility classes for typography and spacing to space
@@ -17,7 +17,7 @@ const Jumbo = () => {
 					Call to action!
 				</a>
 			</div>
-		</div>	
+		</div>
 	);
 };
 

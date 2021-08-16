@@ -11,8 +11,9 @@ import Navbar from "./Navbar.jsx";
 //create your first component
 const Home = () => {
 	return (
-		<div>
+		<div className="mt-5">
 			<Navbar />
+			<div className="my-5"></div>
 			<Jumbo />
 			<Card />
 			<Footer />

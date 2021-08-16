@@ -6,7 +6,7 @@ import React from "react";
 //create your fisrt component
 const Navbar = () => {
 	return (
-		<nav className="navbar fixed-top navbar-light bg-dark">
+		<nav className="navbar fixed-top navbar-light bg-dark mb-5">
 			<div className="container-fluid">
 				<a className="navbar-brand text-light" href="#">
 					Start Boostrap
